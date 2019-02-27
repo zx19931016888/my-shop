@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="my-common" />
+        <module name="my-manager-interface" />
+        <module name="my-manager-pojo" />
+        <module name="my-mannager-dao" />
+        <module name="my-mannager-service" />
+        <module name="my-mannager-serviceimpl" />
+        <module name="my-mannager-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="my-common" target="1.5" />
+      <module name="my-manager" target="1.5" />
+      <module name="my-manager-interface" target="1.5" />
+      <module name="my-manager-pojo" target="1.5" />
+      <module name="my-mannager-dao" target="1.5" />
+      <module name="my-mannager-service" target="1.5" />
+      <module name="my-mannager-serviceimpl" target="1.5" />
+      <module name="my-mannager-web" target="1.7" />
+      <module name="my-parent" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

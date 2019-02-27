@@ -1,0 +1,35 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="my-mannager-web:war exploded">
+    <output-path>$PROJECT_DIR$/my-manager/my-mannager-web/target/my-mannager-web</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="my-mannager-web" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="archive" name="my-mannager-service-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="my-mannager-service" />
+          </element>
+          <element id="archive" name="my-manager-interface-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="my-manager-interface" />
+          </element>
+          <element id="archive" name="my-manager-pojo-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="my-manager-pojo" />
+          </element>
+          <element id="archive" name="my-mannager-dao-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="my-mannager-dao" />
+          </element>
+          <element id="library" level="project" name="Maven: se.jiderhamn.classloader-leak-prevention:classloader-leak-prevention-servlet:2.1.0" />
+          <element id="library" level="project" name="Maven: se.jiderhamn.classloader-leak-prevention:classloader-leak-prevention-core:2.1.0" />
+          <element id="archive" name="my-common-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="my-common" />
+          </element>
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/my-manager/my-mannager-web/target/my-mannager-web/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="my-mannager-web/web/Web" />
+    </root>
+  </artifact>
+</component>

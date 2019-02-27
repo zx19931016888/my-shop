@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/my-common/my-common.iml" filepath="$PROJECT_DIR$/my-common/my-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-manager/my-manager.iml" filepath="$PROJECT_DIR$/my-manager/my-manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-manager/my-manager-interface/my-manager-interface.iml" filepath="$PROJECT_DIR$/my-manager/my-manager-interface/my-manager-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-manager/my-manager-pojo/my-manager-pojo.iml" filepath="$PROJECT_DIR$/my-manager/my-manager-pojo/my-manager-pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-manager/my-mannager-dao/my-mannager-dao.iml" filepath="$PROJECT_DIR$/my-manager/my-mannager-dao/my-mannager-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-manager/my-mannager-service/my-mannager-service.iml" filepath="$PROJECT_DIR$/my-manager/my-mannager-service/my-mannager-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-manager/my-mannager-serviceimpl/my-mannager-serviceimpl.iml" filepath="$PROJECT_DIR$/my-manager/my-mannager-serviceimpl/my-mannager-serviceimpl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-manager/my-mannager-web/my-mannager-web.iml" filepath="$PROJECT_DIR$/my-manager/my-mannager-web/my-mannager-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-parent/my-parent.iml" filepath="$PROJECT_DIR$/my-parent/my-parent.iml" />
+    </modules>
+  </component>
+</project>
